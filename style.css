@@ -8,3 +8,29 @@ body {
 p {
   line-height: 1.4;
 }
+
+/* Important: link order must be as follows */
+
+a {
+
+}
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:focus {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
