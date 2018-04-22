@@ -6,6 +6,7 @@ body, html {
 ul {
   padding: 0;
   width: 100%;
+  min-width: 750px;
 }
 
 li {
@@ -16,11 +17,15 @@ a {
   outline: none;
   text-decoration: none;
   display: inline-block;
-  width: 19.5%;
+  width: 18.5%;
   margin-right: 0.625%;
   text-align: center;
   line-height: 3;
   color: black;
+}
+
+li:first-child a {
+  margin-left: 2.0%;
 }
 
 li:last-child a {
