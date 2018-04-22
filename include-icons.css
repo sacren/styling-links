@@ -33,7 +33,7 @@ a:active {
   color: red;
 }
 
-a[href^='http'] {
+a[href] {
   background: url('external-link-52.png') no-repeat 100% 0;
   background-size: 16px 16px;
   padding-right: 19px;
